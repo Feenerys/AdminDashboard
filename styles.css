@@ -1,11 +1,13 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; 
+    font-weight: normal;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 10fr;
     grid-template-rows: 1fr 4fr;
     min-height: 100%;
     
@@ -16,29 +18,28 @@
     grid-column: 1/2;
     display: grid;
     grid-template-rows: 60px 1fr;
-    padding: 16px;
+    padding: 16px 24px;
+    padding-right: 80px;
     background-color: #1992D4;
     color: white;
+    gap: 30px;
 }
 
 .sidebar-menu {
-    display: grid;
-    grid-template-rows: calc(35px*6) 1fr;
-    border:solid red 2px;
-    gap: 20px;
+    font-size: large;
 }
 
 .sidebar-header {
     display: grid;
     grid-template-columns: 1fr 10fr;
     align-items: center;
-    padding-bottom: 28px;
     font-size: 24px;
+    gap:10px;
+    font-weight: 500;
 }
 
 .sidebar-header img{
     justify-self: center;
-    padding-right: 5px;
     height: 35px;
 }
 
@@ -49,21 +50,27 @@
 .menu {
     display: grid;
     grid-template-rows: repeat(6, 35px);
+    gap: 8px;
+    height: fit-content;
+    padding-bottom: 60px;
 }
 
 .menu-item {
     display: grid;
     grid-template-columns: 1fr 10fr;
     align-items: center;
+    font-weight: 500;
+    gap:12px;
 }
 
-.menu-item img{
-    padding-right: 10px;
+.menu-item img {
+    padding: 0px 6px;
 }
 
 .setting-menu {
     display: grid;
     grid-template-rows: repeat(3, 35px);
+    gap: 8px;
 }
 
 .header {

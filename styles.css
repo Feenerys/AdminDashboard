@@ -104,7 +104,7 @@
 }
 
 .search-bar {
-    height: 50%;
+    height: 30px;
     background-color: #E2E8F0;
     border-radius: 15px;
     border-style: none;
@@ -112,7 +112,7 @@
 
 .header-section-search img {
     justify-self: center;
-    height: 40%;
+    height: 25px;
 }
 
 

@@ -10,7 +10,6 @@
     grid-template-columns: 1fr 10fr;
     grid-template-rows: 1fr 4fr;
     min-height: 100%;
-    
 }
 
 .sidebar {
@@ -88,6 +87,7 @@
 .header-top {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
+    margin: 12px 0px 12px;
 }
 
 .header-bottom {
@@ -100,7 +100,7 @@
     grid-template-columns: 1fr 10fr;
     align-items: center;
     margin-left: 24px;
-    margin-right: 80px;
+    /* margin-right: 10px; */
 }
 
 .search-bar {
@@ -113,6 +113,28 @@
 .header-section-search img {
     justify-self: center;
     height: 25px;
+}
+
+.header-section-profile {
+    display: grid;
+    align-items: center;   
+    grid-template-columns: repeat(2, 50px)  120px;
+    justify-items: center;
+    justify-content: end;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+.header-section-profile .profile{
+    height: 35px;
+    border-radius: 100%;
+    border-color: #E2E8F0;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.header-section-profile .profile-name {
+    font-weight: 600;
 }
 
 

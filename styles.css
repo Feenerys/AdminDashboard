@@ -20,7 +20,7 @@
     grid-template-rows: 60px 1fr;
     padding: 16px 24px;
     padding-right: 80px;
-    background-color: #1992D4;
+    background-color: #d41945;
     color: white;
     gap: 30px;
 }
@@ -83,6 +83,8 @@
     grid-row: 2/3;
     background-color: #E2E8F0;
 }
+
+
 
 
 

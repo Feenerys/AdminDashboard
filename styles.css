@@ -8,7 +8,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 10fr;
-    grid-template-rows: 144px 4fr;
+    grid-template-rows: 160px 4fr;
     min-height: 100%;
 }
 
@@ -80,13 +80,17 @@
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: #E2E8F0;
-    padding: 28px 16px;
-
+    padding: 28px 24px;
+    row-gap: 24px;
+    gap: 24px;
 }
 
 .header {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    box-shadow: 2px 2px 3px 1px #cdd3db;
+    z-index: 1;
+    gap: 12px;
 }
 
 .header-top {
@@ -100,6 +104,7 @@
 .header-bottom {
     display: grid;
     grid-template-columns: 1.1fr 1fr;
+    
 }
 
 .header-section-search {
@@ -166,7 +171,7 @@
 }
 
 .header-message .top {
-    font-size: small;
+    font-size: 14px;
     font-weight: 600;
 }
 
@@ -208,7 +213,7 @@
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 18px;
+    gap: 24px;
     margin: 14px 0px;
 }
 

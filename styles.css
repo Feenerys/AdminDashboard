@@ -111,7 +111,7 @@
     border-style: none;
 }
 
-.header-section-search img {
+.header-section-search label {
     justify-self: center;
     height: 25px;
 }
@@ -162,11 +162,30 @@
 
 .header-message .top {
     font-size: small;
-
     font-weight: 600;
 }
 
 .header-message .bottom {
     font-size: 24px;
     font-weight: 600;
+}
+
+.header-section-buttons {
+    display: grid;
+    justify-content: end;
+    grid-template-columns: repeat(3, 100px);
+    gap: 24px;
+    margin-right: 44px;
+    align-items: center;
+}
+
+.header-section-buttons button {
+    background-color: #d41945;
+    color: white;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 15px;
+    height: 60%;
+    font-weight: 500;
+    font-size: 16px;
 }

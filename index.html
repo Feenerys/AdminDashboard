@@ -59,8 +59,10 @@
       <div class="header">
         <div class="header-top">
           <div class="header-section-search">
-            <img src="images/search.svg" alt="search icon" />
-            <input type="text" class="search-bar" />
+            <label for="search-bar">
+              <img src="images/search.svg" alt="search icon" />
+            </label>
+            <input id="search-bar" type="text" class="search-bar" />
           </div>
           <div class="header-section-profile">
             <img src="images/bell-ring.svg" alt="notification icon" />
@@ -83,11 +85,12 @@
               <div class="top">Hi there,</div>
               <div class="bottom">Kasane Teto (@teto)</div>
             </div>
-            <!-- TODO: message section -->
           </div>
           <div class="header-section-buttons">
-            right
             <!-- TODO: buttons -->
+            <button class="new">New</button>
+            <button class="upload">Upload</button>
+            <button class="share">Share</button>
           </div>
         </div>
       </div>

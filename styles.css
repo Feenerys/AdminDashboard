@@ -137,7 +137,18 @@
     font-weight: 600;
 }
 
-.header-bottom .profile {
+.header-bottom {
+    margin-bottom: 16px;
+}
+
+.header-section-message {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 0px 24px 0px 44px;
+    align-items: center;
+}
+
+.header-section-message .profile {
     height: 60px;
     border-radius: 100%;
     border-color: #E2E8F0;
@@ -145,4 +156,17 @@
     border-width: 1px;
 }
 
+.header-message {
+    margin-left: 18px;
+}
 
+.header-message .top {
+    font-size: small;
+
+    font-weight: 600;
+}
+
+.header-message .bottom {
+    font-size: 24px;
+    font-weight: 600;
+}
